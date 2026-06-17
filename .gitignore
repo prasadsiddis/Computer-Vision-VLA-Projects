@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets and generated artifacts
+data_local/
+**/data/nuscenes/
+**/data/bdd100k/
+**/data/carla/
+**/data/talk2car/
+**/data/waymo/
+**/data/argoverse2/
+**/data/kitti/
+outputs/
+runs/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# System files
+.DS_Store
+Thumbs.db

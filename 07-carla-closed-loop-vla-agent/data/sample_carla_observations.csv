@@ -1,0 +1,6 @@
+frame,route_command,traffic_light,semantic_lane_clear,pedestrian_distance_m,vehicle_distance_m,current_speed_mps,expected_action
+1,follow lane,green,true,50,40,5.0,keep_lane
+2,turn left at intersection,green,true,35,25,4.5,turn_left
+3,follow lane,red,true,60,30,3.0,stop
+4,turn right after crosswalk,green,true,6,24,3.5,yield
+5,follow lane,green,false,50,8,6.2,slow_down

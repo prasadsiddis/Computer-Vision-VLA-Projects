@@ -1,0 +1,5 @@
+scene_id,weather,time_of_day,ego_speed_mps,front_vehicle_distance_m,pedestrians,cyclists,traffic_light,lane_clear,caption_seed,expected_action
+nusc_sample_001,clear,day,6.2,35,0,0,green,true,clear urban lane with green light,proceed
+nusc_sample_002,rain,night,4.1,12,1,0,green,true,pedestrian near crosswalk on rainy night,yield
+nusc_sample_003,clear,day,8.5,7,0,1,yellow,false,cyclist ahead and lane partially blocked,slow_down
+nusc_sample_004,fog,dawn,3.0,18,0,0,red,true,red light with reduced visibility,stop

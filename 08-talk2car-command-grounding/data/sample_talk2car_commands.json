@@ -1,0 +1,25 @@
+[
+  {
+    "command_id": "t2c_sample_001",
+    "image": "sample_scene_001.jpg",
+    "command": "You can park up ahead behind the silver car next to the orange sign.",
+    "candidates": [
+      {"box_id": "car_1", "category": "car", "color": "silver", "position": "ahead"},
+      {"box_id": "sign_1", "category": "sign", "color": "orange", "position": "right"},
+      {"box_id": "person_1", "category": "person", "color": "blue", "position": "left"}
+    ],
+    "expected_target": "car_1",
+    "expected_action": "park"
+  },
+  {
+    "command_id": "t2c_sample_002",
+    "image": "sample_scene_002.jpg",
+    "command": "Slow down for the pedestrian crossing on the left.",
+    "candidates": [
+      {"box_id": "person_1", "category": "person", "color": "unknown", "position": "left"},
+      {"box_id": "car_1", "category": "car", "color": "black", "position": "ahead"}
+    ],
+    "expected_target": "person_1",
+    "expected_action": "slow_down"
+  }
+]

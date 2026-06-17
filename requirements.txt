@@ -1,0 +1,11 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+jupyterlab>=4.0
+notebook>=7.0
+
+# Optional dataset-specific packages:
+# nuscenes-devkit
+# av2
+# opencv-python
+# waymo-open-dataset-tf-2-12-0

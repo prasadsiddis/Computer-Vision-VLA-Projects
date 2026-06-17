@@ -1,0 +1,30 @@
+[
+  {
+    "name": "bdd_sample_001.jpg",
+    "attributes": {"weather": "clear", "timeofday": "daytime", "scene": "city street"},
+    "objects": {"car": 6, "person": 0, "traffic light": "green", "bus": 0},
+    "lane_clear": true,
+    "expected_action": "proceed"
+  },
+  {
+    "name": "bdd_sample_002.jpg",
+    "attributes": {"weather": "rainy", "timeofday": "night", "scene": "residential"},
+    "objects": {"car": 3, "person": 2, "traffic light": "none", "bus": 0},
+    "lane_clear": true,
+    "expected_action": "yield"
+  },
+  {
+    "name": "bdd_sample_003.jpg",
+    "attributes": {"weather": "foggy", "timeofday": "dawn", "scene": "highway"},
+    "objects": {"car": 12, "person": 0, "traffic light": "none", "bus": 1},
+    "lane_clear": false,
+    "expected_action": "slow_down"
+  },
+  {
+    "name": "bdd_sample_004.jpg",
+    "attributes": {"weather": "clear", "timeofday": "daytime", "scene": "intersection"},
+    "objects": {"car": 2, "person": 0, "traffic light": "red", "bus": 0},
+    "lane_clear": true,
+    "expected_action": "stop"
+  }
+]

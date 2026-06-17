@@ -1,0 +1,5 @@
+scenario_id,city,route_intent,lane_change_required,crosswalk_distance_m,lead_actor_future_m,side_actor_conflict,ego_speed_mps,expected_action
+av2_0001,miami,go_straight,false,45,30,false,8,keep_lane
+av2_0002,pittsburgh,right_turn,true,18,22,true,6,yield
+av2_0003,austin,left_turn,false,12,16,true,5,slow_down
+av2_0004,detroit,go_straight,false,5,9,false,4,stop

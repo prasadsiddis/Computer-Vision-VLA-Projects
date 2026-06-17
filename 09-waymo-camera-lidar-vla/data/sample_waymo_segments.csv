@@ -1,0 +1,5 @@
+segment_id,location,time_of_day,weather,visibility_m,nearest_vehicle_m,pedestrians,cyclists,lidar_objects,traffic_light,lane_available,expected_action
+waymo_0001,phoenix,day,clear,120,18,0,0,14,green,true,keep_lane
+waymo_0002,san_francisco,night,rain,42,8,1,0,26,yellow,true,slow_down
+waymo_0003,mountain_view,day,clear,90,24,2,1,31,green,true,yield
+waymo_0004,urban_intersection,dusk,fog,28,6,0,1,22,red,false,stop

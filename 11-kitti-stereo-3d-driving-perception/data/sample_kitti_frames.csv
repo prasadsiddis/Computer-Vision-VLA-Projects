@@ -1,0 +1,5 @@
+frame_id,scene_type,nearest_car_m,nearest_pedestrian_m,stereo_depth_quality,occlusion_level,lane_marking_visible,ego_speed_mps,expected_action
+kitti_000001,residential,22,35,high,low,true,9,keep_lane
+kitti_000002,city,7,18,medium,medium,true,8,slow_down
+kitti_000003,intersection,16,4,high,low,true,5,stop
+kitti_000004,highway,11,99,low,high,false,15,prepare_lane_change
