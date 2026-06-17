@@ -31,6 +31,8 @@ See [CHANGELOG.md](CHANGELOG.md) for the update history.
 
 See [docs/research-notes.md](docs/research-notes.md) for research motivation, current limitations, and near-term direction.
 
+See [experiments/](experiments/) for baseline experiment configurations.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |

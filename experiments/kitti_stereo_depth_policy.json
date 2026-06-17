@@ -1,0 +1,17 @@
+{
+  "experiment_name": "kitti_stereo_depth_policy_baseline",
+  "project": "11-kitti-stereo-3d-driving-perception",
+  "dataset_style": "KITTI",
+  "sample_manifest": "11-kitti-stereo-3d-driving-perception/data/sample_kitti_frames.csv",
+  "baseline_policy": "depth_and_occlusion_action_policy",
+  "primary_metrics": [
+    "action_match_rate",
+    "near_object_response_rate",
+    "occlusion_response_rate"
+  ],
+  "output_artifacts": [
+    "outputs/vla_decision_trace.csv",
+    "figures/dataset_coverage.png"
+  ],
+  "next_upgrade": "Load KITTI calibration, label_2 annotations, stereo pairs, and depth estimates."
+}

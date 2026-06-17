@@ -1,0 +1,17 @@
+{
+  "experiment_name": "carla_closed_loop_vla_baseline",
+  "project": "07-carla-closed-loop-vla-agent",
+  "dataset_style": "CARLA",
+  "sample_manifest": "07-carla-closed-loop-vla-agent/data/sample_carla_observations.csv",
+  "baseline_policy": "rule_based_closed_loop_action_policy",
+  "primary_metrics": [
+    "action_match_rate",
+    "collision_warning_response_rate",
+    "pedestrian_yield_rate"
+  ],
+  "output_artifacts": [
+    "outputs/vla_decision_trace.csv",
+    "figures/vla_pipeline_workflow.png"
+  ],
+  "next_upgrade": "Collect CARLA camera, semantic segmentation, route command, speed, and control logs."
+}

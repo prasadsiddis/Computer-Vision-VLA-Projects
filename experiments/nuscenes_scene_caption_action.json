@@ -1,0 +1,17 @@
+{
+  "experiment_name": "nuscenes_scene_caption_action_baseline",
+  "project": "05-nuscenes-vla-scene-caption-action",
+  "dataset_style": "nuScenes",
+  "sample_manifest": "05-nuscenes-vla-scene-caption-action/data/sample_nuscenes_scenes.csv",
+  "baseline_policy": "rule_based_scene_caption_to_action",
+  "primary_metrics": [
+    "action_match_rate",
+    "risk_score_distribution",
+    "failure_case_count"
+  ],
+  "output_artifacts": [
+    "outputs/vla_decision_trace.csv",
+    "figures/sample_risk_scores.png"
+  ],
+  "next_upgrade": "Replace sample manifest with nuScenes mini metadata and add camera-frame panels."
+}
