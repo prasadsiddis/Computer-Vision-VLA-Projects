@@ -27,6 +27,8 @@ See [RESULTS.md](RESULTS.md) for the baseline results summary and next evaluatio
 
 See [ROADMAP.md](ROADMAP.md) for the research upgrade plan.
 
+See [CHANGELOG.md](CHANGELOG.md) for the update history.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |
