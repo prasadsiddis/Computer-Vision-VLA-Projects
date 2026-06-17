@@ -33,6 +33,8 @@ See [docs/research-notes.md](docs/research-notes.md) for research motivation, cu
 
 See [experiments/](experiments/) for baseline experiment configurations.
 
+See [docs/5-day-commit-plan.md](docs/5-day-commit-plan.md) for a short plan to continue improving the repository with real follow-up commits.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |
