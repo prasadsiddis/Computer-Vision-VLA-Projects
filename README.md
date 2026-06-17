@@ -23,6 +23,8 @@ These figures summarize the current project structure and sample outputs.
 
 ![Sample risk proxy](figures/sample_risk_scores.png)
 
+See [RESULTS.md](RESULTS.md) for the baseline results summary and next evaluation targets.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |
