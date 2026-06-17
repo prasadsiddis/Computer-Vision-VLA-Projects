@@ -25,6 +25,8 @@ These figures summarize the current project structure and sample outputs.
 
 See [RESULTS.md](RESULTS.md) for the baseline results summary and next evaluation targets.
 
+See [ROADMAP.md](ROADMAP.md) for the research upgrade plan.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |
