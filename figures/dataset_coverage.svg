@@ -1,0 +1,17 @@
+<svg width="1000" height="430" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dataset coverage chart">
+  <rect width="1000" height="430" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Dataset Coverage Across CV/VLA Projects</text>
+  <g font-family="Arial" font-size="13" fill="#172033">
+    <rect x="80" y="310" width="55" height="42" fill="#2f6fbb"/><text x="107" y="374" text-anchor="middle">01</text><text x="107" y="394" text-anchor="middle">Synthetic</text>
+    <rect x="160" y="285" width="55" height="67" fill="#2f6fbb"/><text x="187" y="374" text-anchor="middle">02</text><text x="187" y="394" text-anchor="middle">Segmentation</text>
+    <rect x="240" y="260" width="55" height="92" fill="#2f6fbb"/><text x="267" y="374" text-anchor="middle">03</text><text x="267" y="394" text-anchor="middle">VQA</text>
+    <rect x="320" y="235" width="55" height="117" fill="#2f6fbb"/><text x="347" y="374" text-anchor="middle">05</text><text x="347" y="394" text-anchor="middle">nuScenes</text>
+    <rect x="400" y="210" width="55" height="142" fill="#2f6fbb"/><text x="427" y="374" text-anchor="middle">06</text><text x="427" y="394" text-anchor="middle">BDD100K</text>
+    <rect x="480" y="185" width="55" height="167" fill="#2f6fbb"/><text x="507" y="374" text-anchor="middle">07</text><text x="507" y="394" text-anchor="middle">CARLA</text>
+    <rect x="560" y="160" width="55" height="192" fill="#2f6fbb"/><text x="587" y="374" text-anchor="middle">08</text><text x="587" y="394" text-anchor="middle">Talk2Car</text>
+    <rect x="640" y="135" width="55" height="217" fill="#2f6fbb"/><text x="667" y="374" text-anchor="middle">09</text><text x="667" y="394" text-anchor="middle">Waymo</text>
+    <rect x="720" y="110" width="55" height="242" fill="#2f6fbb"/><text x="747" y="374" text-anchor="middle">10</text><text x="747" y="394" text-anchor="middle">Argoverse</text>
+    <rect x="800" y="85" width="55" height="267" fill="#2f6fbb"/><text x="827" y="374" text-anchor="middle">11</text><text x="827" y="394" text-anchor="middle">KITTI</text>
+  </g>
+  <line x1="60" y1="352" x2="900" y2="352" stroke="#46505a" stroke-width="2"/>
+</svg>

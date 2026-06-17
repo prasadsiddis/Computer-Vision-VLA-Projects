@@ -13,6 +13,16 @@ The goal is to build a portfolio around multimodal autonomous-driving intelligen
 - select interpretable high-level driving actions
 - prepare each baseline for later upgrade with real datasets and VLM/VLA models
 
+## Visual Outputs
+
+These figures summarize the current project structure and sample outputs.
+
+![VLA pipeline workflow](figures/vla_pipeline_workflow.png)
+
+![Dataset coverage](figures/dataset_coverage.png)
+
+![Sample risk proxy](figures/sample_risk_scores.png)
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |

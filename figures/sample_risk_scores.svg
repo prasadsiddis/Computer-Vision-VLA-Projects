@@ -1,0 +1,13 @@
+<svg width="1000" height="430" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sample risk score chart">
+  <rect width="1000" height="430" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Sample Risk Proxy From Included Manifests</text>
+  <g font-family="Arial" font-size="14" fill="#172033">
+    <rect x="135" y="190" width="90" height="160" fill="#4f8a5b"/><text x="180" y="376" text-anchor="middle">nuScenes</text><text x="180" y="176" text-anchor="middle">medium</text>
+    <rect x="285" y="120" width="90" height="230" fill="#4f8a5b"/><text x="330" y="376" text-anchor="middle">CARLA</text><text x="330" y="106" text-anchor="middle">high</text>
+    <rect x="435" y="150" width="90" height="200" fill="#4f8a5b"/><text x="480" y="376" text-anchor="middle">Waymo</text><text x="480" y="136" text-anchor="middle">high</text>
+    <rect x="585" y="230" width="90" height="120" fill="#4f8a5b"/><text x="630" y="376" text-anchor="middle">Argoverse 2</text><text x="630" y="216" text-anchor="middle">medium</text>
+    <rect x="735" y="170" width="90" height="180" fill="#4f8a5b"/><text x="780" y="376" text-anchor="middle">KITTI</text><text x="780" y="156" text-anchor="middle">high</text>
+  </g>
+  <line x1="90" y1="350" x2="880" y2="350" stroke="#46505a" stroke-width="2"/>
+  <text x="500" y="410" text-anchor="middle" font-family="Arial" font-size="13" fill="#46505a">Proxy values summarize relative risk in the included sample manifests; full experiments should recompute metrics from real datasets.</text>
+</svg>
