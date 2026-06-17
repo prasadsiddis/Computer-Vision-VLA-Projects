@@ -1,8 +1,17 @@
 # Computer Vision for Vision-Language-Action Models
 
-This repository contains autonomous-driving computer vision and Vision-Language-Action (VLA) project starters.
+This portfolio was created to explore VLA models for autonomous driving PhD research.
 
-Each project includes a README, sample data, and a runnable notebook. The real-dataset notebooks include dataset health checks, feature auditing, risk scoring, decision traces, evaluation summaries, visual review charts, export steps, and real-dataset upgrade plans.
+It focuses on the research path from visual perception to language-grounded reasoning and high-level driving actions. Each project includes a README, sample data, and a runnable notebook. The real-dataset notebooks include dataset health checks, feature auditing, risk scoring, decision traces, evaluation summaries, visual review charts, export steps, and real-dataset upgrade plans.
+
+## Research Goal
+
+The goal is to build a portfolio around multimodal autonomous-driving intelligence:
+
+- perceive driving scenes from camera, LiDAR, stereo, segmentation, and map-style signals
+- convert perception into structured language descriptions
+- select interpretable high-level driving actions
+- prepare each baseline for later upgrade with real datasets and VLM/VLA models
 
 ## Projects
 
