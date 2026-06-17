@@ -29,6 +29,8 @@ See [ROADMAP.md](ROADMAP.md) for the research upgrade plan.
 
 See [CHANGELOG.md](CHANGELOG.md) for the update history.
 
+See [docs/research-notes.md](docs/research-notes.md) for research motivation, current limitations, and near-term direction.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |
