@@ -1,0 +1,6 @@
+project_id,dataset_style,scene_context,predicted_action,reason,next_upgrade
+05,nuScenes,"clear daytime lane, green light, no pedestrians, front vehicle at 35m",proceed,"low risk scene with clear lane and safe following distance","replace sample row with nuScenes mini camera token and object annotations"
+07,CARLA,"follow-lane command, green light, pedestrian at 50m, vehicle at 40m",keep_lane,"closed-loop observation indicates stable route following","attach CARLA RGB frame, segmentation frame, and control log"
+09,Waymo,"night rain, visibility 42m, nearest vehicle at 8m, pedestrian nearby",slow_down,"limited visibility and short following distance increase risk","parse Waymo TFRecord camera and LiDAR object summaries"
+10,Argoverse2,"right turn route, side actor conflict, crosswalk at 18m",yield,"turn path may conflict with nearby actor forecast","query AV2 lane graph and actor trajectory parquet files"
+11,KITTI,"city frame, nearest car at 7m, medium occlusion, visible lane markings",slow_down,"lead vehicle is close and perception uncertainty is moderate","load KITTI calibration, stereo images, and label_2 annotations"

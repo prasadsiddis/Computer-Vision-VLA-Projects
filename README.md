@@ -35,6 +35,8 @@ See [experiments/](experiments/) for baseline experiment configurations.
 
 See [docs/5-day-commit-plan.md](docs/5-day-commit-plan.md) for a short plan to continue improving the repository with real follow-up commits.
 
+See [examples/vla_decision_traces.csv](examples/vla_decision_traces.csv) for sample action traces and [docs/dataset-adapter-notes.md](docs/dataset-adapter-notes.md) for real-dataset conversion notes.
+
 ## Projects
 
 | # | Project | Dataset / Style | Focus |
