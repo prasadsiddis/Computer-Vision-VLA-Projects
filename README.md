@@ -56,3 +56,5 @@ See [examples/vla_decision_traces.csv](examples/vla_decision_traces.csv) for sam
 ## Dataset Setup
 
 Small sample manifests are included so the notebooks run quickly. Full datasets should be downloaded from official sources and kept outside Git. See [DATASETS.md](DATASETS.md).
+
+See [docs/failure-cases.md](docs/failure-cases.md) for baseline failure cases and research upgrade ideas.
